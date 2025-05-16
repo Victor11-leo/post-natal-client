@@ -13,7 +13,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Badge } from "@/components/ui/badge"
 
-export default function ArticleEditor({ articleId }: { articleId: string }) {
+export default function ArticleEditor({ articleId }) {
   const [activeTab, setActiveTab] = useState("content")
 
   // Mock data for an existing article
