@@ -1,7 +1,7 @@
-import { HeroSection } from "./sections/hero-section"
-import { FeaturesSection } from "./sections/features-section"
-import { AppMockupSection } from "./sections/app-mockup-section"
-import { Footer } from "./sections/footer"
+import { HeroSection } from "@/components/sections/hero-section"
+import { FeaturesSection } from "@/components/sections/features"
+import { AppMockupSection } from "@/components/sections/mockup"
+import { Footer } from "@/components/sections/footer"
 
 export default function Home() {
   return (

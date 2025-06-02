@@ -1,56 +1,67 @@
 "use client"
 
 import * as React from "react"
-import {
-  ArrowUpCircleIcon,
-  BarChartIcon,  
-  FolderIcon,
-  LayoutDashboardIcon,
-  ListIcon,
+import {  
+    BookA,
+  Bot,
+  FileQuestion,
   Flower2,
-  Flower2Icon
-  
+  GalleryVerticalEnd,
+  SquareTerminal,
+  User2,
 } from "lucide-react"
 
 import { NavMain } from "@/components/nav-main"
 import { NavUser } from "@/components/nav-user"
+import { TeamSwitcher } from "@/components/team-switcher"
 import {
   Sidebar,
   SidebarContent,
   SidebarFooter,
   SidebarHeader,
-  SidebarMenu,
-  SidebarMenuButton,
-  SidebarMenuItem,
+  SidebarRail,
 } from "@/components/ui/sidebar"
-import { useUser } from "@clerk/nextjs"
 
+// This is sample data.
 const data = {
-  // user: {
-  //   name: "shadcn",
-  //   email: "m@example.com",
-  //   avatar: "/avatars/shadcn.jpg",
-  // },
+  user: {
+    name: "shadcn",
+    email: "m@example.com",
+    avatar: "/avatars/shadcn.jpg",
+  },
+  teams: [
+    {
+      name: "PostNatal Care",
+      logo: Flower2,
+      plan: "",
+    },
+  ],
   navMain: [
     {
       title: "Dashboard",
       url: "/admin",
-      icon: LayoutDashboardIcon,
-    },
-    {
-      title: "Articles",
-      url: "/admin/articles",
-      icon: ListIcon,
+      icon: SquareTerminal,
+      isActive: true,      
     },
     {
       title: "Analytics",
       url: "/admin/analytics",
-      icon: BarChartIcon,
+      icon: Bot,
+    },
+    {
+      title: "Articles",
+      url: "/admin/articles",
+      icon: BookA,
     },
     {
       title: "Questionnaires",
       url: "/admin/questionnaires",
-      icon: FolderIcon,
+      icon: FileQuestion,
+    },
+    {
+      title: "Users",
+      url: "/admin/users",
+      icon: User2,
     },
     
   ],
@@ -58,36 +69,18 @@ const data = {
 }
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
-  const { isSignedIn, user, isLoaded } = useUser()
-  if (!user) return null
-  const userPersona = {
-    name:user.firstName,
-    email:user.emailAddresses[0].emailAddress,
-    avatar:user.imageUrl
-  }
   return (
-    <Sidebar collapsible="offcanvas" {...props}>
+    <Sidebar collapsible="icon" {...props}>
       <SidebarHeader>
-        <SidebarMenu>
-          <SidebarMenuItem>
-            <SidebarMenuButton
-              asChild
-              className="data-[slot=sidebar-menu-button]:!p-1.5"
-            >
-              <a href="#">
-                <Flower2Icon className="h-5 w-5" />
-                <span className="text-base font-semibold">PostNatal Care.</span>
-              </a>
-            </SidebarMenuButton>
-          </SidebarMenuItem>
-        </SidebarMenu>
+        <TeamSwitcher teams={data.teams} />
       </SidebarHeader>
       <SidebarContent>
         <NavMain items={data.navMain} />        
       </SidebarContent>
       <SidebarFooter>
-        <NavUser user={userPersona} />
+        <NavUser user={data.user} />
       </SidebarFooter>
+      <SidebarRail />
     </Sidebar>
   )
 }

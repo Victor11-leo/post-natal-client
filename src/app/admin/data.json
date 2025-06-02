@@ -1,0 +1,302 @@
+[
+  {
+    "id": "1",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/women/1.jpg",
+      "username": "mary_jane"
+    },
+    "articles": {
+      "read": "15",
+      "liked": "10",
+      "disliked": "2"
+    },
+    "lastSession": "2025-05-26T14:23:45Z",
+    "createdAt": "2025-04-01T08:45:00Z",
+    "questionnairesDone": "3"
+  },
+  {
+    "id": "2",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/men/2.jpg",
+      "username": "john_doe"
+    },
+    "articles": {
+      "read": "22",
+      "liked": "18",
+      "disliked": "1"
+    },
+    "lastSession": "2025-05-24T17:10:12Z",
+    "createdAt": "2025-03-18T10:30:00Z",
+    "questionnairesDone": "5"
+  },
+  {
+    "id": "3",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/women/3.jpg",
+      "username": "nana_k"
+    },
+    "articles": {
+      "read": "8",
+      "liked": "4",
+      "disliked": "1"
+    },
+    "lastSession": "2025-05-25T12:34:12Z",
+    "createdAt": "2025-04-20T09:15:00Z",
+    "questionnairesDone": "2"
+  },
+  {
+    "id": "4",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/men/4.jpg",
+      "username": "kevinb"
+    },
+    "articles": {
+      "read": "30",
+      "liked": "25",
+      "disliked": "3"
+    },
+    "lastSession": "2025-05-27T10:45:00Z",
+    "createdAt": "2025-02-10T14:00:00Z",
+    "questionnairesDone": "8"
+  },
+  {
+    "id": "5",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/women/5.jpg",
+      "username": "susan_m"
+    },
+    "articles": {
+      "read": "12",
+      "liked": "7",
+      "disliked": "2"
+    },
+    "lastSession": "2025-05-22T09:00:00Z",
+    "createdAt": "2025-04-12T11:20:00Z",
+    "questionnairesDone": "3"
+  },
+  {
+    "id": "6",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/men/6.jpg",
+      "username": "mike_87"
+    },
+    "articles": {
+      "read": "19",
+      "liked": "14",
+      "disliked": "0"
+    },
+    "lastSession": "2025-05-26T13:15:00Z",
+    "createdAt": "2025-03-05T10:10:00Z",
+    "questionnairesDone": "6"
+  },
+  {
+    "id": "7",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/women/7.jpg",
+      "username": "angie_t"
+    },
+    "articles": {
+      "read": "5",
+      "liked": "3",
+      "disliked": "1"
+    },
+    "lastSession": "2025-05-21T08:00:00Z",
+    "createdAt": "2025-04-25T07:50:00Z",
+    "questionnairesDone": "1"
+  },
+  {
+    "id": "8",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/men/8.jpg",
+      "username": "brian_k"
+    },
+    "articles": {
+      "read": "26",
+      "liked": "20",
+      "disliked": "2"
+    },
+    "lastSession": "2025-05-28T10:30:00Z",
+    "createdAt": "2025-03-15T12:00:00Z",
+    "questionnairesDone": "7"
+  },
+  {
+    "id": "9",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/women/9.jpg",
+      "username": "lucy_g"
+    },
+    "articles": {
+      "read": "11",
+      "liked": "8",
+      "disliked": "0"
+    },
+    "lastSession": "2025-05-20T16:00:00Z",
+    "createdAt": "2025-04-05T13:45:00Z",
+    "questionnairesDone": "2"
+  },
+  {
+    "id": "10",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/men/10.jpg",
+      "username": "tony_s"
+    },
+    "articles": {
+      "read": "17",
+      "liked": "10",
+      "disliked": "4"
+    },
+    "lastSession": "2025-05-26T11:30:00Z",
+    "createdAt": "2025-03-28T14:10:00Z",
+    "questionnairesDone": "4"
+  },
+  {
+    "id": "11",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/women/11.jpg",
+      "username": "clara_d"
+    },
+    "articles": {
+      "read": "14",
+      "liked": "9",
+      "disliked": "1"
+    },
+    "lastSession": "2025-05-24T19:45:00Z",
+    "createdAt": "2025-04-08T09:00:00Z",
+    "questionnairesDone": "3"
+  },
+  {
+    "id": "12",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/men/12.jpg",
+      "username": "felix_m"
+    },
+    "articles": {
+      "read": "21",
+      "liked": "17",
+      "disliked": "1"
+    },
+    "lastSession": "2025-05-27T15:20:00Z",
+    "createdAt": "2025-02-18T12:15:00Z",
+    "questionnairesDone": "6"
+  },
+  {
+    "id": "13",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/women/13.jpg",
+      "username": "winnie_l"
+    },
+    "articles": {
+      "read": "10",
+      "liked": "6",
+      "disliked": "0"
+    },
+    "lastSession": "2025-05-23T10:30:00Z",
+    "createdAt": "2025-04-16T13:00:00Z",
+    "questionnairesDone": "2"
+  },
+  {
+    "id": "14",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/men/14.jpg",
+      "username": "george_k"
+    },
+    "articles": {
+      "read": "28",
+      "liked": "22",
+      "disliked": "3"
+    },
+    "lastSession": "2025-05-28T07:15:00Z",
+    "createdAt": "2025-01-30T10:40:00Z",
+    "questionnairesDone": "9"
+  },
+  {
+    "id": "15",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/women/15.jpg",
+      "username": "betty_o"
+    },
+    "articles": {
+      "read": "7",
+      "liked": "5",
+      "disliked": "1"
+    },
+    "lastSession": "2025-05-25T09:10:00Z",
+    "createdAt": "2025-04-02T08:50:00Z",
+    "questionnairesDone": "1"
+  },
+  {
+    "id": "16",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/men/16.jpg",
+      "username": "owen_j"
+    },
+    "articles": {
+      "read": "33",
+      "liked": "29",
+      "disliked": "2"
+    },
+    "lastSession": "2025-05-26T18:00:00Z",
+    "createdAt": "2025-02-14T09:30:00Z",
+    "questionnairesDone": "7"
+  },
+  {
+    "id": "17",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/women/17.jpg",
+      "username": "diana_m"
+    },
+    "articles": {
+      "read": "16",
+      "liked": "11",
+      "disliked": "2"
+    },
+    "lastSession": "2025-05-22T12:45:00Z",
+    "createdAt": "2025-03-20T11:00:00Z",
+    "questionnairesDone": "3"
+  },
+  {
+    "id": "18",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/men/18.jpg",
+      "username": "victor_n"
+    },
+    "articles": {
+      "read": "24",
+      "liked": "19",
+      "disliked": "3"
+    },
+    "lastSession": "2025-05-28T13:30:00Z",
+    "createdAt": "2025-02-05T10:20:00Z",
+    "questionnairesDone": "5"
+  },
+  {
+    "id": "19",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/women/19.jpg",
+      "username": "edith_a"
+    },
+    "articles": {
+      "read": "6",
+      "liked": "4",
+      "disliked": "0"
+    },
+    "lastSession": "2025-05-21T08:25:00Z",
+    "createdAt": "2025-04-22T12:00:00Z",
+    "questionnairesDone": "1"
+  },
+  {
+    "id": "20",
+    "user": {
+      "image": "https://randomuser.me/api/portraits/men/20.jpg",
+      "username": "sam_o"
+    },
+    "articles": {
+      "read": "18",
+      "liked": "15",
+      "disliked": "1"
+    },
+    "lastSession": "2025-05-26T14:40:00Z",
+    "createdAt": "2025-03-10T13:10:00Z",
+    "questionnairesDone": "4"
+  }
+]
