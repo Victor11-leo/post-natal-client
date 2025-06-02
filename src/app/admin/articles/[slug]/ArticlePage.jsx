@@ -1,6 +1,6 @@
 "use client"
 
-import type React from "react"
+
 import { FormEvent, useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -15,21 +15,21 @@ import { createArticle, deleteArticle, updateArticle } from "@/lib/articles"
 import { toast } from "sonner"
 
 
-interface Article {
-  id: number;
-  title: string | null;
-  content: string | null;
-  excerpt: string | null;
-  featuredImage: string | null;
-  tags: string[] | null;
-}
+// interface Article {
+//   id: number;
+//   title: string | null;
+//   content: string | null;
+//   excerpt: string | null;
+//   featuredImage: string | null;
+//   tags: string[] | null;
+// }
 
-export default function ArticlePage(article:Article) {
+export default function ArticlePage(article) {
   console.log(article);
   
-  const [tags, setTags] = useState<string[]>(article[0].tags)
+  const [tags, setTags] = useState(article[0].tags)
   const [currentTag, setCurrentTag] = useState("")  
-  const [featuredImage, setFeaturedImage] = useState<string>(article[0].featuredImage)
+  const [featuredImage, setFeaturedImage] = useState(article[0].featuredImage)
 
   const [title,setTitle] = useState(article[0].title)
   const [excerpt,setExcerpt] = useState(article[0].excerpt)
@@ -45,11 +45,11 @@ export default function ArticlePage(article:Article) {
     }
   }
 
-  const removeTag = (tagToRemove: string) => {
+  const removeTag = (tagToRemove) => {
     setTags(tags.filter((tag) => tag !== tagToRemove))
   }
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
+  const handleKeyPress = (e) => {
     if (e.key === "Enter") {
       e.preventDefault()
       addTag()

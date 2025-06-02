@@ -14,7 +14,7 @@ const page = async () => {
       <Link href='/admin/questionnaires/new'>
         <Button><PlusIcon/> Questionnaire</Button>
       </Link>
-      <QuestionnairesDataTable questionnaires={res}/>
+      {/* <QuestionnairesDataTable questionnaires={res}/> */}
     </div>
   )
 }
